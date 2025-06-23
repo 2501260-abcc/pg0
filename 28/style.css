@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    background-color: black;
+    background-image: url(image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.global_nav{
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.global_nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.global_nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.global_nav a:hover{
+    background-color: gray;
+}
+.title_div{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 10px;
+    box-shadow: 20px 20px 2px;
+    width: 80%;
+    border: solid 3px gold;
+    background-color: gainsboro;
+    text-align: center;
+}
+.heading_div{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    box-shadow: 20px 20px 2px;
+    width: 80%;
+    background-image: url(image/board.png);
+    background-size: auto;
+    text-align: center;
+}
+.heading_div img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: solid 3px gold;
+}
+.sub_heading_div{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-left: 5%;
+    width: 30%;
+    height: 100px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 2px black;
+    border-radius: 50%;
+    background-image: url(image/board_dark.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.sub_heading_div strong{
+    font-size: 200%;
+}
+.home_base_div{
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+}
+.article_base_div{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.content_div{
+    margin-top: 50px;
+    display: flex;
+    padding: 5px;
+    width: 35%;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 2px;
+    background-color: gainsboro;
+    border: solid 3px gold;
+    align-items: center;
+    text-align: center;
+}
+.content_div{
+    margin-top: 50px;
+    display: flex;
+    padding: 5px;
+    width: 35%;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 2px;
+    background-color: gainsboro;
+    border: solid 3px gold;
+    align-items: center;
+    text-align: center;
+}
+.music_content_div{
+    margin-top: 50px;
+    display: flex;
+    padding: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 2px;
+    background-color: gainsboro;
+    border: solid 3px gold;
+    align-items: center;
+    text-align: center;
+}
+.comic_content_div{
+    margin-top: 50px;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 2px;
+    background-color: gainsboro;
+    border: solid 3px gold;
+    align-items: center;
+    text-align: center;
+}
+.comic_content_div img{
+    width: 20%;
+}
+.sentence_div{
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.label_div img{
+    width: 70%;
+}
+
+.content_div strong{
+    margin-left: 10%;
+    font-size: 20px;
+}
